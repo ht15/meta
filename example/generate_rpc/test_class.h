@@ -1,8 +1,8 @@
 #pragma once
-#include <meta/serialize/decode.h>
+#include <core/serialize/decode.h>
 #include <iostream>
 #include <iomanip>
-#include <meta/macro.h>
+#include <core/macro.h>
 #include <nlohmann/json.hpp>
 using json = nlohmann::json;
 namespace test

@@ -6,7 +6,7 @@
 #include <clang-c/Index.h>
 #include <utility>
 #include <queue>
-#include <meta/parser/clang_utils.h>
+#include <core/parser/clang_utils.h>
 
 namespace spiritsaway::meta::language
 {

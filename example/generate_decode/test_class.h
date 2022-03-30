@@ -8,7 +8,7 @@
 
 #include <vector>
 #include <unordered_map>
-#include <meta/serialize/decode.h>
+#include <core/serialize/decode.h>
 using namespace std;
 namespace test
 {

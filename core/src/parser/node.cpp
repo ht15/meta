@@ -1,7 +1,7 @@
 ﻿#include <algorithm>
-#include <meta/parser/node.h>
-#include <meta/parser/clang_utils.h>
-#include <meta/parser/name_space.h>
+#include <core/parser/node.h>
+#include <core/parser/clang_utils.h>
+#include <core/parser/name_space.h>
 
 namespace 
 {

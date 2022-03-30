@@ -1,6 +1,6 @@
 ﻿#pragma once
 #include <nlohmann/json.hpp>
-#include <meta/utility/string_utils.h>
+#include <core/utility/string_utils.h>
 using json = nlohmann::json;
 namespace spiritsaway::meta::language
 {

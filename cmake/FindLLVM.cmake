@@ -8,8 +8,8 @@ if (NOT DEFINED LIBCLANG_USE_STATIC_LIBRARY)
 endif ()
 
 set(LLVM_SEARCH_PATHS
-    ${LLVM_ROOT}
-    $ENV{LLVM_ROOT}
+    ${CMAKE_CURRENT_SOURCE_DIR}/../third_party/llvm
+    ${CMAKE_CURRENT_SOURCE_DIR}/../third_party/clang
 )
 
 set(LIBCLANG_STATIC_LIBRARY_NAME

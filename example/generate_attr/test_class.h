@@ -1,13 +1,13 @@
 #pragma once
 #include <iostream>
 #include <iomanip>
-#include <meta/macro.h>
+#include <core/macro.h>
 #include <optional>
 #include <vector>
 #include <unordered_map>
 #include <string>
-#include <meta/utility/type_map.h>
-#include <meta/utility/string_utils.h>
+#include <core/utility/type_map.h>
+#include <core/utility/string_utils.h>
 namespace test
 {
 class test_class

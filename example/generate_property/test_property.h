@@ -1,8 +1,8 @@
 #pragma once
-#include <meta/serialize/property.h>
+#include <core/serialize/property.h>
 #include <iostream>
 #include <iomanip>
-#include <meta/macro.h>
+#include <core/macro.h>
 namespace test
 {
 class test_property

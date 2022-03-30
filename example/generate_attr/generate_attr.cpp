@@ -11,11 +11,11 @@
 #include <queue>
 #include <filesystem>
 
-#include <meta/parser/nodes/class.h>
-#include <meta/parser/clang_utils.h>
+#include <core/parser/nodes/class.h>
+#include <core/parser/clang_utils.h>
 
-//#include <meta/serialize/decode.h>
-#include <meta/parser/generator.h>
+//#include <core/serialize/decode.h>
+#include <core/parser/generator.h>
 
 using namespace std;
 using namespace spiritsaway::meta;
@@ -134,11 +134,11 @@ int main()
 	CXIndex m_index;
 	CXTranslationUnit m_translationUnit;
 	std::vector<std::string> arguments;
-	arguments.push_back("-x");
+	arguments.push_back("-g");
 	arguments.push_back("c++");
 	arguments.push_back("-std=c++17");
 	arguments.push_back("-D__meta_parse__");
-	arguments.push_back("-ID:/usr/include/");
+	// arguments.push_back("-ID:/usr/include/");
 	arguments.push_back("-I../include/");
 	std::vector<const char *> cstr_arguments;
 

@@ -10,11 +10,11 @@
 #include <sstream>
 #include <queue>
 #include <filesystem>
-#include <meta/parser/nodes/class.h>
-#include <meta/parser/clang_utils.h>
+#include <core/parser/nodes/class.h>
+#include <core/parser/clang_utils.h>
 
-//#include <meta/serialize/decode.h>
-#include <meta/parser/generator.h>
+//#include <core/serialize/decode.h>
+#include <core/parser/generator.h>
 
 
 using namespace std;

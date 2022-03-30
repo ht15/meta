@@ -6,9 +6,9 @@
 #include <optional>
 #include <functional>
 #include "forward_decl.h"
-#include <meta/macro.h>
+#include <core/macro.h>
 #include <nlohmann/json.hpp>
-#include <meta/serialize/decode.h>
+#include <core/serialize/decode.h>
 using json = nlohmann::json;
 namespace test
 {

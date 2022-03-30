@@ -1,6 +1,5 @@
-﻿#include <meta/parser/nodes/class.h>
-#include <meta/parser/nodes/variable.h>
-#include <meta/parser/nodes/callable.h>
+﻿#include <core/parser/nodes/class.h>
+#include <core/parser/nodes/callable.h>
 
 namespace spiritsaway::meta::language
 {

@@ -13,10 +13,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++latest")
 endif(MSVC)
 
 # add json support
-find_package(nlohmann_json CONFIG REQUIRED)
+find_package(nlohmann_json REQUIRED)
 
 # add log support
-find_package(spdlog CONFIG REQUIRED)
+find_package(spdlog REQUIRED)
 INCLUDE_DIRECTORIES(${spdlog_include_dirs})
 
 

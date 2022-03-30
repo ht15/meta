@@ -1,4 +1,4 @@
-﻿#include <meta/parser/name_space.h>
+﻿#include <core/parser/name_space.h>
 
 namespace spiritsaway::meta::language
 {

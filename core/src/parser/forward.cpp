@@ -1,8 +1,8 @@
-﻿#include <meta/parser/nodes/forward.h>
-#include <meta/parser/nodes/callable.h>
-#include <meta/parser/nodes/variable.h>
-#include <meta/parser/nodes/class.h>
-#include <meta/parser/nodes/enum.h>
+﻿#include <core/parser/nodes/forward.h>
+#include <core/parser/nodes/callable.h>
+#include <core/parser/nodes/variable.h>
+#include <core/parser/nodes/class.h>
+#include <core/parser/nodes/enum.h>
 
 namespace spiritsaway::meta::language
 {

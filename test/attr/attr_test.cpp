@@ -3,7 +3,7 @@
 #include <functional>
 #include <vector>
 #include <iostream>
-#include <meta/utility/type_map.h>
+#include <core/utility/type_map.h>
 
 using namespace std;
 using namespace spiritsaway::meta;
