@@ -6,11 +6,11 @@ file(MAKE_DIRECTORY ${EXTERNAL_PREFIX}/lib)
 
 ## clang
 add_library(clang_3rd SHARED IMPORTED GLOBAL)
-if (LINUX)
-    set(CLANG_APPLE_INCLUDE_DIRS "/usr/local/clang-10.0.1/include")
+if (LINUX OR APPLE)
+    set(CLANG_APPLE_INCLUDE_DIRS "/Users/qiqi/Documents/github/llvm/clang/include")
     set_target_properties(clang_3rd PROPERTIES
         IMPORTED_LOCATION
-        "/usr/local/clang-10.0.1/lib/libclang.so.10"
+        "/Users/qiqi/Documents/github/llvm/clang/lib/libclang.dylib"
         INTERFACE_INCLUDE_DIRECTORIES
         "${CLANG_APPLE_INCLUDE_DIRS}"
         )

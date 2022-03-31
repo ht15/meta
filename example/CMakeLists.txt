@@ -7,9 +7,7 @@
 # add_executable(generate_rpc ${CMAKE_CURRENT_SOURCE_DIR}/generate_rpc/generate_rpc.cpp)
 # target_link_libraries(generate_rpc PRIVATE meta)
 
-add_executable(generate_attr ${CMAKE_CURRENT_SOURCE_DIR}/generate_attr/generate_attr.cpp)
-target_link_libraries(generate_attr PRIVATE metacore)
-
+add_subdirectory(generate_attr)
 # add_executable(generate_component ${CMAKE_CURRENT_SOURCE_DIR}/generate_component/generate_component.cpp)
 # target_link_libraries(generate_component PRIVATE meta)
 

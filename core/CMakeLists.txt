@@ -15,4 +15,4 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 find_package(Filesystem REQUIRED)
 
 
-target_link_libraries(metacore PUBLIC clang_3rd nlohmann_json_3rd spdlog_3rd mustache_3rd PRIVATE std::filesystem)
+target_link_libraries(metacore PUBLIC clang_3rd nlohmann_json_3rd spdlog_3rd mustache_3rd PRIVATE)

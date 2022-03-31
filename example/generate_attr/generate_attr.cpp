@@ -138,8 +138,12 @@ int main()
 	arguments.push_back("c++");
 	arguments.push_back("-std=c++17");
 	arguments.push_back("-D__meta_parse__");
-	// arguments.push_back("-ID:/usr/include/");
-	arguments.push_back("-I../include/");
+	arguments.push_back("-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1");
+	arguments.push_back("-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include");
+	arguments.push_back("-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include");
+	arguments.push_back("-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include");
+	arguments.push_back("-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks");
+	arguments.push_back("-I/Users/qiqi/Documents/github/meta/core/include");
 	std::vector<const char *> cstr_arguments;
 
 	for (const auto& i : arguments)
